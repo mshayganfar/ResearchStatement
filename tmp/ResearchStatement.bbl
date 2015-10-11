@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{bratman:intentions-plans}
+Michael~E. Bratman.
+\newblock {\em Intention, Plans, and Practical Reason}.
+\newblock Cambridge, Mass.: Harvard University Press, 1987.
+
+\bibitem{cohen:teamwork}
+Philip Cohen and Hector~J. Levesque.
+\newblock {\em Teamwork}.
+\newblock SRI International, 1991.
+
+\bibitem{cohen:intention-commitment}
+Philip~R. Cohen and Hector~J. Levesque.
+\newblock Intention is choice with commitment.
+\newblock {\em Artificial Intelligence}, 42(2-3):213--261, 1990.
+
+\bibitem{cohen:persistence-intention-commitment}
+Philip~R. Cohen and Hector~J. Levesque.
+\newblock Persistence, intention, and commitment.
+\newblock In Philip~R. Cohen, Jerry Morgan, and Martha~E. Pollack, editors,
+  {\em Intentions in Communication}, pages 33--69. MIT Press, Cambridge, MA,
+  1990.
+
+\bibitem{cohen:intentions}
+Philip~R. Cohen, Jerry Morgan, and Martha~E. Pollack.
+\newblock {\em Intentions in Communication}.
+\newblock A Bradford Book, 1990.
+
+\bibitem{grosz:shared-plans}
+Barbara Grosz and Sarit Kraus.
+\newblock The evolution of shared plans.
+\newblock In {\em Foundations and Theories of Rational Agency}, pages 227--262,
+  1998.
+
+\bibitem{grosz:collaborative-systems}
+Barbara~J. Grosz.
+\newblock {AAAI-94} presidential address: Collaborative systems.
+\newblock {\em {AI} Magazine}, 17(2):67--85, 1996.
+
+\bibitem{grosz:mice-menus}
+Barbara~J. Grosz.
+\newblock Beyond mice and menus.
+\newblock {\em Proceedings of the American Philosophical Society},
+  149(4):523--543, 2005.
+
+\bibitem{grosz:planning-acting}
+Barbara~J. Grosz, Luke Hunsberger, and Sarit Kraus.
+\newblock Planning and acting together.
+\newblock {\em {AI} Magazine}, 20(4):23--34, 1999.
+
+\bibitem{grosz:collaboration}
+Barbara~J. Grosz and Sarit Kraus.
+\newblock Collaborative plans for complex group action.
+\newblock {\em Artificial Intelligence}, 86(2):269--357, 1996.
+
+\bibitem{grosz:plans-discourse}
+Barbara~J. Grosz and Candace~L. Sidner.
+\newblock Plans for discourse.
+\newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
+  Intentions in Communication}, pages 417--444. MIT Press, Cambridge, MA, 1990.
+
+\bibitem{levesque:acting-together}
+Hector~J. Levesque, Philip~R. Cohen, and José H.~T. Nunes.
+\newblock On acting together.
+\newblock In {\em AAAI}, pages 94--99. AAAI Press / The MIT Press, 1990.
+
+\bibitem{Litman:discourse-commonsense}
+D.~J. Litman and J.~F. Allen.
+\newblock Discourse processing and commonsense plans.
+\newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
+  Intentions in Communication}, pages 365--388. MIT Press, Cambridge, MA, 1990.
+
+\bibitem{lochbaum:collaborative-planning}
+Karen~E Lochbaum.
+\newblock A collaborative planning model of intentional structure.
+\newblock {\em Computational Linguistics}, 24(4):525--572, 1998.
+
+\bibitem{ravenscroft:folk}
+Ian Ravenscroft.
+\newblock {\em Folk Psychology as a Theory}.
+\newblock Stanford Encyclopedia of Philosophy, 2004.
+
+\bibitem{tambe:flexible-teamwork}
+Milind Tambe.
+\newblock Towards flexible teamwork.
+\newblock {\em Journal of Artificial Intelligence Research}, 7:83--124, 1997.
+
+\end{thebibliography}

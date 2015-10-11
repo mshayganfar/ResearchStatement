@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ResearchStatement.aux
+The style file: plain.bst
+Database file #1: mshayganfar.bib
+Warning--I didn't find a database entry for "pps"
+Warning--I didn't find a database entry for "ppsmcast"
+Warning--I didn't find a database entry for "dsm"
+Warning--I didn't find a database entry for "csets"
+Warning--I didn't find a database entry for "buffer"
+Warning--I didn't find a database entry for "stats"
+Warning--I didn't find a database entry for "classipi"
+Warning--I didn't find a database entry for "buffxbar"
+Warning--I didn't find a database entry for "msm"
+You've used 16 entries,
+            2118 wiz_defined-function locations,
+            598 strings with 5974 characters,
+and the built_in function-call counts, 5543 in all, are:
+= -- 549
+> -- 220
+< -- 5
++ -- 85
+- -- 67
+* -- 356
+:= -- 899
+add.period$ -- 52
+call.type$ -- 16
+change.case$ -- 73
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 239
+empty$ -- 474
+format.name$ -- 67
+if$ -- 1211
+int.to.chr$ -- 0
+int.to.str$ -- 16
+missing$ -- 20
+newline$ -- 83
+num.names$ -- 38
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 61
+quote$ -- 0
+skip$ -- 166
+stack$ -- 0
+substring$ -- 362
+swap$ -- 59
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 56
+warning$ -- 0
+while$ -- 58
+width$ -- 18
+write$ -- 181
+(There were 9 warnings)

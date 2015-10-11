@@ -1,0 +1,429 @@
+\documentclass[a4paper, 10pt]{article}
+
+\topmargin-2.0cm
+
+\usepackage{fancyhdr}
+\usepackage{pagecounting}
+\usepackage[dvips]{color}
+
+\advance\oddsidemargin-0.65in
+
+\textheight9.2in
+\textwidth6.75in
+\newcommand\bb[1]{\mbox{\em #1}}
+\def\baselinestretch{1.05}
+
+\newcommand{\hsp}{\hspace*{\parindent}}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+\begin{document}
+\thispagestyle{fancy}
+
+\lhead{}
+\rhead{}
+
+\renewcommand{\headrulewidth}{0pt} 
+\renewcommand{\footrulewidth}{0pt} 
+\fancyfoot[C]{\footnotesize \textcolor{gray}{http://users.wpi.edu/{\raise.17ex\hbox{$\scriptstyle\sim$}}mshayganfar}} 
+
+\pagestyle{fancy}
+
+\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+
+\begin{small}
+
+\begin{center}
+{\LARGE \bf RESEARCH STATEMENT}\\
+\vspace*{0.1cm}
+{\normalsize Mahni Shayganfar (mshayganfar@wpi.edu)}
+\end{center}
+
+My current research span the areas of computational collaboration theories,
+affective computing, human-robot collaboraiton, and cognitive robotics. A
+common thread in my research is in developing a theory (Affective Motivational
+Collaboration Theory), design of a domain-independent architecture, and the
+framework which uses this architecture to provide a collabortive behavior for
+robots or vritual agents. I have resorted to prominent computational
+collaboration theories, i.e., SharedPlans theory, and computaitonal models of
+emotions, i.e., cognitive appraisal theory to develop my own theory. Broadly
+speaking, my research belongs to the area of human-robot collaboration and its
+underlyign processes, a growing field which has influence in different leading
+industries such as autonomous vehicles, space exploration, manufacturing, and
+any situation requiring human-robot teamwork.
+
+\subsubsection*{Background}
+
+The construction of robots that are intelligent, collaborative problem-solving
+partners is important in robotics and applications of Artificial Intelligence.
+It has always been important for us to make robots better at helping us to do
+whatever they are designed for. To build collaborative robots, we need to
+identify the capabilities that must be added to them so that they can work with
+us or other agents. As Grosz says, collaboration must be designed into systems
+from the start; it cannot be patched on \cite{grosz:collaborative-systems}.
+Collaboration is a special type of coordinated activity in which the
+participants work together performing a task or carrying out the activities
+needed to satisfy a shared goal \cite{grosz:collaboration}. 
+
+Collaboration involves several key properties both in structural and functional
+levels. For instance, most collaborative situations involve participants who
+have different beliefs and capabilities; most of the time collaborators only
+have partial knowledge of the process of accomplishing the collaborative
+activities; collaborative plans are more than the sum of individual plans;
+collaborators are required to maintain mutual beliefs about their shared goal
+throughout the collaboration; they need to be able to communicate with others
+effectively; they need to commit to the group activities and to their role in
+it; collaborators need to commit to the success of others; they need to
+reconcile between commitments to the existing collaboration and their other
+activities; and they need to interpret others' actions and utterances in the
+collaboration context \cite{grosz:mice-menus}. These collaboration properties
+are captured by the existing computational collaboration theories.
+
+As I mentioned, to be collaborative, partners, e.g., a robot and a human, need
+to meet the specifications stipulated by collaboration theories. These theories
+argue for an essential distinction between a collaboration and a simple
+interaction or even a coordination in terms of commitments
+\cite{grosz:shared-plans, lochbaum:collaborative-planning}. The prominent
+collaboration theories are mostly based on plans and joint intentions
+\cite{cohen:teamwork,grosz:plans-discourse,Litman:discourse-commonsense}, and
+they were derived from the BDI paradigm developed by Bratman
+\cite{bratman:intentions-plans} which is fundamentally reliant on folk
+psychology \cite{ravenscroft:folk}. The two theories, Joint Intentions
+\cite{cohen:teamwork} and SharedPlans \cite{grosz:plans-discourse}, have been
+extensively used to examine and describe teamwork and collaboration.
+
+\textbf{SharedPlans theory -} The SharedPlans model of collaborative
+action, presented by Grosz and Sidner \cite{grosz:planning-acting,
+grosz:collaboration, grosz:plans-discourse}, aims to provide the theoretical
+foundations needed for building collaborative robots/agents
+\cite{grosz:collaborative-systems}. SharedPlans is a general theory of
+collaborative planning that requires no notion of joint intentions, accommodates
+multi-level action decomposition hierarchies and allows the process of expanding
+and elaborating partial plans into full plans. SharedPlans theory explains how a
+group of agents can incrementally form and execute a shared plan that then
+guides and coordinates their activity towards the accomplishment of a shared
+goal. SharedPlans is rooted in the observation that collaborative plans are not
+simply a collection of individual plans, but rather a tight interleaving of
+mutual beliefs and intentions of different team members.
+
+%Grosz and Sidner in \cite{grosz:plans-discourse} present a model of plans to
+%account for how agents with partial knowledge collaborate in the construction
+% of a domain plan. They are interested in the type of plans that underlie discourse
+%in which the agents are collaborating in order to achieve a shared goal. They
+%propose that agents are building a shared plan in which participants have a
+%collection of beliefs and intentions about the actions in the plan. Agents have
+%a library of how to do their actions, i.e. recipes. These recipes might be
+%partially specified as to how an action is executed, or contributes to a goal.
+%Then, each agent communicates their beliefs and intentions by making utterances
+%about what actions they can contribute to the shared plan. This communication
+%leads to the construction of a shared plan, and ultimately termination of the
+%collaboration with each agent mutually believing that there exists one agent
+%% who is going to execute an action in the plan, and the fact that that agent
+% has intention to perform the action, and that each action in the plan
+% contributes to the goal \cite{grosz:plans-discourse,lochbaum:plan-models}.
+
+\textbf{Joint Intentions theory -} Following Bratman's guidelines, Cohen and
+Levesque propose a formal approach to building artificial collaborative agents.
+The Joint Intentions theory of Cohen and Levesque \cite{cohen:teamwork,
+cohen:intention-commitment, cohen:persistence-intention-commitment,
+cohen:intentions, levesque:acting-together} represents one of the first attempts
+to establish a formal theory of collaboration, and due to its clarity and
+expression, is a widely used teamwork theory. The basic idea of Joint Intentions
+theory is based on individual and joint intentions (as well as commitments) to
+act as a team member. Their notion of joint intention is viewed not only as a
+persistent commitment of the team to a shared goal, but also implies a
+commitment on part of all its members to a mutual belief about the state of the
+goal. In other words, Joint Intentions theory describes how a team of agents can
+jointly act together by sharing mental states about their actions while an
+intention is viewed as a commitment to perform an action. A joint intention is a
+shared commitment to perform an action while in a group mental state
+\cite{cohen:intention-commitment}.
+
+%In \cite{cohen:teamwork} Cohen and Levesque establish that joint intention
+%cannot be defined simply as individual intention with the team regarded as an
+%individual. The reason is that after the initial formation of an intention,
+% team members may diverge in their beliefs and their attitudes towards the intention.
+%Instead, Cohen and Levesque generalize their own definition of intention.
+% First, they present a definition of individual persistent goal and individual
+%intention. Then, they define analogues of these concepts by presenting mutual
+%belief in place of individual belief. The definition of joint persistent goal
+%requires team members to commit to informing other members, if it comes to
+%believe that the shared goal is in its terminal status. As a result, in Cohen
+%and Levesque's theory, a team with a joint intention is a group that shares a
+%common objective and a certain shared mental state
+%\cite{jarvis:teams-multiagent-systems}.
+
+%In this theory, once an agent entered into a joint commitment with other
+% agents, the agent should communicate its private beliefs with other team members if the
+%agent believes that the joint goal is in its terminal status, i.e., either the
+%joint goal is achieved, or it is unachievable, or irrelevant
+%\cite{wilsker:study-theories}. Thus, as we mentioned above, team members are
+%committed to inform other team members when they reach the conclusion that a
+%goal is achievable, impossible, or irrelevant. For instance, if a robot and an
+%astronaut are collaborating to install a solar panel, and the robot reaches the
+%conclusion that the welding tool has deficiency, it is essential for the robot
+%to have an intention to communicate with the astronaut and make this knowledge
+%common. Therefore, according to this theory, in a collaboration, agents can
+%count on the commitment of other members, first to the goal and then to the
+%mutual belief of the status of the goal.
+
+\textbf{STEAM -} Tambe in \cite{tambe:flexible-teamwork} argues that teamwork in
+complex, dynamic, multi-agent domains requires the agents to obtain flexibility
+and reusability by using integrated capabilities. Tambe created STEAM (simply, a
+\textbf{S}hell \textbf{TEAM}work) based on this idea. STEAM's operationalization
+in complex, real-world domains is the key in its development to addressing 
+important teamwork issues. STEAM is founded on the Joint Intentions theory and
+it uses joint intentions as the basic building block of teamwork while it is
+informed by key concepts from SharedPlans theory.
+
+%In summary, STEAM builds on both Joint Intention theory and SharedPlans theory
+%and tries to overcome their shortcomings. Based on joint intentions, STEAM
+%builds up hierarchical structures that parallel the SharedPlans theory. Hence,
+%STEAM formalizes commitments by building and maintaining Joint Intentions, and
+%uses SharedPlans to formulate the team's attitudes in complex tasks.
+
+I believe the SharedPlans and Joint Intentions collaboration theories are the
+most well-defined and well-established theories in computer science. I found
+SharedPlans theory more convincing than the other major and subordinate
+approaches, with respect to its inclusive explanation of the collaboration
+structure and its association to discourse analysis which directly improves the
+communicative aspects of a collaboration theory. I also understand the value of
+Joint Intentions theory due to its clarity and closeness to the foundations of
+collaboration concepts. These specifications of the Joint Intentions theory can
+make it applicable in multi-agent system designs and human-robot collaboration.
+I also consider hybrid approaches valuable, such as STEAM, if they clearly
+understand drawbacks with existing theories and successfully achieve better
+collaborative agents by infusing different concepts from different theories.
+
+In my Ph.D thesis, I attempt to lay a computational framework for the theory I
+have developed based on SharedPlans and Cognitive Appraisal theories. A great
+deal of my work has benefited from the integration of these well-established
+theories and their underlying structure.\\
+
+2. Limitations (funnel into my thesis)
+
+Although all these theories are well-defined and properly introduce
+collaboration concepts, they mostly explain the structure of a collaboration and
+they lack the underlying domain-independent processes with which collaborative
+procedures could be defined more systematically and effectively in different
+applications.\\
+
+3. Introduce topic and research question \\
+
+4. Synopsis of first part of my work \\
+
+5. Synopsis of second part of my work \\
+
+6. Overview of human study at the end \\
+
+7. Verification method \\
+
+8. Say how current research can apply to their research \\
+
+9. Exaplain why the research is valuable \\
+
+% Say that research work has been both theoritical and practical.
+
+\subsubsection*{\small An Analytical Framework to Analyze Router Architectures}
+
+In the past decade, router design has enjoyed both widespread academic interest and
+commercial success. I ask the following question --- {\em Is there a common
+technique, which allows us to analyze router architectures that give deterministic 
+guarantees?}
+I observed the existence of such a technique called constraint sets, in the course of solving 
+two open problems about scaling router capacity ---
+
+\begin{enumerate}
+
+\item {\em Is it possible to emulate a fast ideal router, using only slower speed routers?}
+
+\item {\em Is it possible to emulate an ideal centralized shared memory router using only distributed memories?}
+
+\end{enumerate}
+
+Constraint sets are a generalization of the Pigeon-hole principle applied to
+routers. I showed that router design can be considered as a game where arriving
+pigeons (packets) are load balanced amongst pigeon-holes (memories). 
+It is surprising that the above problems can be solved \cite{pps, ppsmcast, dsm} in a simple
+manner using the Pigeon-hole principle because they refute many commonly 
+accepted myths about router design. 
+Also the method of analysis is eye-opening because it captures the structural 
+requirements of any router. 
+I came up with a generic model for a class of routers called Single Buffered Routers. 
+I showed how the Pigeon-hole principle can be applied in the analysis of Single Buffered
+Routers that give deterministic guarantees.  Later, I extended the analysis to 
+routers with two stages of buffering \cite{csets}. 
+Thus our model and analysis technique
+presently incorporates almost all the router architectures in use in the
+core of the Internet today and shows how router capacity can be scaled in
+an efficient manner.
+
+\subsubsection*{\small Deterministic Architectures for Packet Processing}
+
+All network equipment perform packet processing. However 
+it is still not well understood, primarily due to the variety of
+different processing tasks.
+
+These tasks place a heavy demand on instruction and memory bandwidth, which 
+prevents them from being implemented on general-purpose network processors.
+While specific solutions exist, in most cases it is not known whether they
+are optimal, whether they are complete i.e. support all necessary packet processing features and whether they
+give any performance guarantees. I look at three different aspects of this problem ---
+
+\begin{enumerate}
+
+\item {\em Optimal and flexible packet buffers, which eliminate cache misses}
+
+Packet buffers are built using cache hierarchies. As is well known, caching
+can only give statistical guarantees on packet access time, resulting in unpredictable packet
+latency.
+In contrast, I proposed deterministic algorithms, which exploit the characteristics 
+of memory requirements for networking to design a memory hierarchy, which eliminates cache misses. 
+I showed how the optimal buffer caching algorithm can be modeled using difference equations and
+used adversarial traffic patterns to show that it is optimal \cite{buffer}.
+This resulting memory architecture supports the high access speeds of the cache while
+having the large storage capacity of main memory, obviating the need for any special purpose memory
+for networking.
+Later, I showed how the cache hierarchy could be designed to allow 
+flexibility in choosing any buffer access latency.
+A number of router companies such as Cisco, Juniper as well as main memory manufacturers 
+like Infineon, Rambus and Micron have shown interest in this technique.
+
+\item {\em Optimal and deterministic architectures for statistics and state maintenance}
+
+I (along with a colleague) showed using potential functions how there is 
+a direct relation between the optimal architectures for buffering
+and maintaining statistics counters \cite{stats}. 
+Similarly I showed analytically how an algorithm, which gives deterministic 
+delay bounds could be designed for maintaining connection state. 
+
+\item {\em A complete and flexible architecture for packet classification}
+
+Packet classification requirements vary widely.
+For example, firewalls need classification on packet headers, while an
+intrusion detection device requires classification of the packet content. 
+Previous research has focused on being able to classify at very
+high rates. In contrast, I (along with a number of colleagues) 
+focused on developing a classifier, which is flexible and complete i.e. it could be programmed to
+perform a number of classification tasks and give deterministic performance guarantees.
+As a first step, we identified the elementary building blocks for packet
+classification in terms of an abstract language. We then designed a parallel hardware architecture
+to implement this 
+language. This resulted in a commercial implementation of a chip set
+(presently marketed by PMC-Sierra) called ClassiPI \cite{classipi}.
+Among others, the ClassiPI chip set is currently in use in Cisco's
+Content Services Switches.
+
+
+\end{enumerate}
+
+\subsubsection*{\small Distributed and Greedy Algorithms for Packet Switching}
+
+Switching theory is replete with the analysis of optimal algorithms, which can give 
+ideal performance, but have large complexity. What are of interest are practical algorithms that can 
+be easily implemented. I answer the following open questions, which throw light on two classes of 
+practical algorithms.
+
+\begin{enumerate}
+\item {\em Is there a distributed switching algorithm, which gives performance guarantees?}
+
+The crossbar is the most common switching fabric in the core of the Internet. However,
+the known switching algorithms required to give deterministic performance 
+guarantees are centralized and hence have a high communication overhead.
+I (along with a colleague) analyzed the feasibility of distributed algorithms for a
+modification of the crossbar fabric called the buffered crossbar.
+We derive analytically using combinatorial arguments and counting techniques the
+conditions under which a suite of distributed algorithms can give 
+both statistical and deterministic
+guarantees respectively. 
+Since our algorithms need only local state, do not require communication with each other, 
+and can operate independently on each input and output port, they are readily implementable.
+Our results show that Internet routers built using crossbars, such as Cisco routers, can 
+be upgraded in a practical manner using our distributed 
+algorithms on buffered crossbars and give ideal performance \cite{buffxbar}.
+
+\item {\em When can greedy algorithms give optimal switching performance?}
+
+Contrary to intuition, it is known in queueing theory that a greedy
+switching algorithm such as the maximum size matching which
+maximizes the instantaneous throughput of the switch may not
+maximize the long-term switch throughput. Hence, greedy algorithms
+are not in use in practice.
+However greedy algorithms are of practical interest due to their low implementation complexity.
+I show using Lyapunov functions the conditions under which
+such algorithms give 100\% throughput \cite{msm}.
+
+\end{enumerate}
+
+\subsection*{Network Architecture ---  A Research Agenda}
+
+   In the course of my research, I have noticed that the overhead (in terms
+of size, power and cost) of designing networking components, which give 
+performance guarantees is small. 
+This is mainly due to two reasons. First, the inherent nature of 
+networking makes many of these problems tractable. Second, a number of
+hardware advances in Architecture, insights in Algorithms {\it \&} Combinatorics, 
+as well as analysis techniques from Probability, {\it \&} Queueing Theory 
+aid in the design of elegant and simple solutions.
+I envisage the field of {\it Network Architecture} created from the 
+ground up, building upon the foundations of a number of fields
+including those mentioned above.
+
+In the near future, I am interested in the 
+principles involved in the design of basic networking 
+components. These include
+hardware components (e.g. scalable memories, 
+network processor and co-processor architectures) and 
+software techniques (e.g. network algorithms, packet processing 
+techniques). 
+  Simultaneously, I intend to understand how large components, which use
+the above building blocks can be architected.
+My research will focus on how these basic and large
+components can be built in a scalable manner while maintaining 
+performance guarantees. 
+In particular, examples of large components that I have a keen
+interest in are switches 
+(e.g. packet and circuit switches, multi-service routers etc.), 
+security devices (e.g. firewalls and intrusion detection 
+systems), network maintenance devices (e.g. measurement,
+management infrastructure) and application aware devices
+(e.g. web server load balancers, proxies) etc. 
+
+ In the future, though performance and scalability will remain key,
+I also intend to look at issues such as {\it fault tolerance, graceful degradation,
+reliability and uptime} of networking systems, which will become more relevant. 
+I also believe that as systems become increasingly large and 
+inter-dependent, {\it simplicity in design and component 
+re-use} will be major factors.
+Parallelism can play a key role here.
+
+Indeed, many of our proposed solutions, involve component re-use and 
+parallelism, which can aid and abet the above.
+
+ My research will involve a good mix of futuristic and present 
+day research. 
+One part of my work will focus on fundamentally different proposals and
+radical solutions. As an example
+--- can we finally achieve real-time streaming over the Internet,
+assuming that the various network components give performance guarantees?
+In contrast, I intend to devote the other part of my work 
+on practical systems, which have immediate relevance and impact in Industry.
+I intend to work closely with a number of
+researchers in related fields. Similarly, I intend to
+collaborate with Industry in understanding and developing solutions
+for practical problems. I believe my past experience of research
+work done jointly with a number of colleagues as well as my prior record
+of participation with Industry will help me achieve this. 
+I am excited at the
+prospect of learning, contributing, giving shape and making an
+impact in this upcoming and challenging field.  
+
+
+\bibliographystyle{plain}
+\bibliography{mshayganfar}
+
+\vspace{0.5cm}
+
+\end{small}
+
+\end{document}
+
