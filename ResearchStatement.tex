@@ -240,13 +240,25 @@ theories and their underlying structure.
 
 \subsubsection*{Limitations}
 
-Although all the existing collaboration theories are well-defined and properly
-introduce collaboration concepts, they mostly explain the structure of a
-collaboration and they lack the underlying domain-independent processes with
-which collaborative procedures could be defined more systematically and
-effectively in different applications.\\
-
-3. Introduce topic and research question \\
+There are several well-developed
+cognitive architectures, e.g., Soar \cite{laird:soar} and ACT-R
+\cite{anderson:act-r}, each with different approaches to defining the basic
+cognitive and perceptual operations. There have also been efforts to integrate
+affect into these architectures \cite{marinier:behavior-emotion}. In general,
+however, these cognitive architectures do not focus on processes to specifically
+produce affect-regulated goal-driven collaborative behaviors. At the same time,
+existing collaboration theories, e.g. SharedPlans theory
+\cite{grosz:plans-discourse}, Joint Intentions \cite{cohen:teamwork}, and STEAM
+\cite{tambe:flexible-teamwork}, focus on describing the structure of a
+collaboration in terms of fundamental mental states, e.g., mutual beliefs or
+intentions. Although all the existing collaboration theories are well-defined
+and properly introduce collaboration concepts, they mostly explain the structure
+of a collaboration and they lack the underlying domain-independent processes
+with which collaborative procedures could be defined more systematically and
+effectively in different applications. Therefore, it is crucial to investigate
+the cognitive processes involved in a collaboration in the context of a
+cognitive architecture to be able to describe the underlying processes, their
+relationships, and their influences on each other.\\
 
 I believe that the evaluative role of emotions as a part of cognitive processes
 helps an agent to perform appropriate behaviors during a collaboration. It is
@@ -284,75 +296,72 @@ and coping processes, but how they also serve as a bridge between appraisal
 processes and the collaboration structure. I will validate my theory using my
 computational framework in the context of a human-robot collaboration.
 
-As a crucial part of my research, I have developed domain-independent algorithms
-for the appraisal of a collaborative environment. These algorithms compute the
-value of the four appraisal variables, i.e.,\textit{relevance, desirability,
-expectedness} and \textit{controllability}. These algorithms use a generalized
-structure of collaboration to compute their outcome in a dyadic collaboration.
-The performance of individual algorithms will be verfied based on the analysis
-of human subjects' answers to the questionnaire prepared with repect to same
-task models.
+I have investigated how affect-driven mechanisms in my Affective Motivational
+Collaboration Theory can be involved to successfully maintain a dyadic
+collaboration. This study is based on two hypothetical collaboration examples of
+\textit{task delegation} and \textit{agreeing on a shared goal} for both
+positive and negative situations. In positive cases, two walkthrough examples
+are provided to show successful progress of a collaboration in each scenario. In
+these examples collaboration is concluded by the shared goal achievement because
+of the emotion-aware behavior of a robot. Whereas, the negative cases,
+illustrate how emotion-ignorant behavior of a robot can cause failure of a
+collaboration in the same examples. We have implemented the rules associated
+with these examples using JESS (Java Expert System Shell) which is a rule engine
+for the Java platform. In our current implementation we have categorized the
+rules in different modules associated with the mechanisms and the underlying
+processes in Affective Motivational Collaboration Thoery. We are implementing
+algorithms for each individual mechanism to be able to automatically generate
+the required facts within each mechanism to fire the existing rules. Ultimately,
+we are going to offer a platform which operates based on the collaboration
+structure discussed by SharedPlans theory \cite{grosz:discourse-structure}, and
+employs affect-driven processes such as the appraisal processes in
+\cite{marsella:ema-process-model} to enable a robot to obtain and demonstrate
+collaborative behaviors. This study is currently under review of a
+journal publication. 
 
-6. Overview of human study at the end \\
-
-7. Verification method \\
-
-8. Say how current research can apply to their research \\
-
-9. Exaplain why the research is valuable
+As another crucial part of my research, I have developed domain-independent
+algorithms for the appraisal of a collaborative environment. These algorithms
+compute the value of the four appraisal variables, i.e., \textit{relevance,
+desirability, expectedness} and \textit{controllability}. These algorithms use a
+generalized collaboration structure to compute their outcome in a dyadic
+collaboration. The performance of individual algorithms will be verified based
+on the analysis of the answers human subjects provide to our questionnaire. All
+of the questions have been prepared based on the same task models provided to
+our framework. I will finalize my Ph.D. thesis by evaluating the overall
+architecture using a robot simulator to successfully and efficiently (in terms
+of time and number of errors) collaborate with human subjects.
 
 \subsubsection*{A Research Agenda}
 
-In the course of my research, I have noticed that \ldots
+Collaborative robots are becoming an integral part of humans' environment to
+accomplish their industrial and household tasks. In these environments humans
+are involved in robots' operations and decision making processes. This
+involvement of humans influences the efficiency of robots' interaction and
+performance, and makes them dependent on the humans' cognitive abilities and
+mental states. Similarly, humans' performance can be maintained using robot's
+adaptive behavior. The evaluative nature of affective processes can assist a
+robot to perform adaptive behaviors with respect to the current goal. Goal
+management, alarm mechanism and action selection are some examples of the
+functions that a system with affect-driven processes offers.
 
-In the near future, I am interested in the 
-principles involved in the design of basic networking 
-components. These include
-hardware components (e.g. scalable memories, 
-network processor and co-processor architectures) and 
-software techniques (e.g. network algorithms, packet processing 
-techniques). 
-  Simultaneously, I intend to understand how large components, which use
-the above building blocks can be architected.
-My research will focus on how these basic and large
-components can be built in a scalable manner while maintaining 
-performance guarantees. 
-In particular, examples of large components that I have a keen
-interest in are switches 
-(e.g. packet and circuit switches, multi-service routers etc.), 
-security devices (e.g. firewalls and intrusion detection 
-systems), network maintenance devices (e.g. measurement,
-management infrastructure) and application aware devices
-(e.g. web server load balancers, proxies) etc. 
+Performance evaluation of a human requires perception of the human's physical
+and mental states. This perception can be performed based on available
+bio-information, as well as verbal (e.g., utterancces) and non-verbal (e.g.,
+facial expressiona) behaviors. However, a robot requires to possess cognitive
+mechanisms to evaluate and adapt its own behavior to change human's performance
+on the given task and environment. My Ph.D. thesis provides fundamental
+affect-driven mechanisms and defines their relationship within a cognitive
+architecture. These mechanisms can be involved form initial evaluation of the
+input data to higher level processes such as action selection or alarm
+mechanism. All these functions can improve robot's awareness and
+self-synchronization capabilities during the interaction. For instance, if the
+appraisal of the input data reveals controllability (an appraisal varibale) of
+an event, the robot can choose an appropriate action to make changes to
+the status of the interaction. Ultimately, these changes can improve human's
+performance in a task execution. I would like to apply my knowledge I attained
+in my research and develop new algorithms to evaluate performance of a human and
+adapt the robot's behavior respectively.
 
- In the future, though performance and scalability will remain key,
-I also intend to look at issues such as {\it fault tolerance, graceful degradation,
-reliability and uptime} of networking systems, which will become more relevant. 
-I also believe that as systems become increasingly large and 
-inter-dependent, {\it simplicity in design and component 
-re-use} will be major factors.
-Parallelism can play a key role here.
-
-Indeed, many of our proposed solutions, involve component re-use and 
-parallelism, which can aid and abet the above.
-
- My research will involve a good mix of futuristic and present 
-day research. 
-One part of my work will focus on fundamentally different proposals and
-radical solutions. As an example
---- can we finally achieve real-time streaming over the Internet,
-assuming that the various network components give performance guarantees?
-In contrast, I intend to devote the other part of my work 
-on practical systems, which have immediate relevance and impact in Industry.
-I intend to work closely with a number of
-researchers in related fields. Similarly, I intend to
-collaborate with Industry in understanding and developing solutions
-for practical problems. I believe my past experience of research
-work done jointly with a number of colleagues as well as my prior record
-of participation with Industry will help me achieve this. 
-I am excited at the
-prospect of learning, contributing, giving shape and making an
-impact in this upcoming and challenging field.  
 
 
 \bibliographystyle{plain}

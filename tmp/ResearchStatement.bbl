@@ -80,11 +80,26 @@ Barbara~J. Grosz and Sarit Kraus.
 \newblock Collaborative plans for complex group action.
 \newblock {\em Artificial Intelligence}, 86(2):269--357, 1996.
 
+\bibitem{grosz:discourse-structure}
+Barbara~J. Grosz and Candace~L. Sidner.
+\newblock Attention, intentions, and the structure of discourse.
+\newblock {\em Computational Linguistics}, 12(3):175--204, July 1986.
+
 \bibitem{grosz:plans-discourse}
 Barbara~J. Grosz and Candace~L. Sidner.
 \newblock Plans for discourse.
 \newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
   Intentions in Communication}, pages 417--444. MIT Press, Cambridge, MA, 1990.
+
+\bibitem{anderson:act-r}
+Christian~Lebiere John Robert~Anderson.
+\newblock {\em The Atomic Components of Thought}.
+\newblock Lawrence Erlbaum Associates, 1998.
+
+\bibitem{laird:soar}
+John Laird.
+\newblock {\em The Soar Cognitive Architecture}.
+\newblock MIT Press, 2012.
 
 \bibitem{lazarus:emotion-adaptation}
 Richard~Stanley Lazarus.
@@ -106,6 +121,16 @@ D.~J. Litman and J.~F. Allen.
 Karen~E Lochbaum.
 \newblock A collaborative planning model of intentional structure.
 \newblock {\em Computational Linguistics}, 24(4):525--572, 1998.
+
+\bibitem{marinier:behavior-emotion}
+Robert~P. {Marinier III}, John~E. Laird, and Richard~L. Lewis.
+\newblock A computational unification of cognitive behavior and emotion.
+\newblock {\em Cognitive System Research}, 10(1):48--69, March 2009.
+
+\bibitem{marsella:ema-process-model}
+Stacy~C. Marsella and Jonathan Gratch.
+\newblock {EMA}: A process model of appraisal dynamics.
+\newblock {\em Cognitive Systems Research}, 10(1):70--90, March 2009.
 
 \bibitem{picard:affective-computing}
 Rosalind~W. Picard.
