@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sun Oct 11 14:50:43 EDT 2015
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=ResearchStatement.tex
+outputFile=ResearchStatement.pdf
+langSpell=en
+markDer=true
+srcDir=
