@@ -1,4 +1,4 @@
-\documentclass[a4paper, 10pt]{article}
+\documentclass[a4paper, 11pt]{article}
 
 \topmargin-2.0cm
 
@@ -9,7 +9,7 @@
 \advance\oddsidemargin-0.65in
 
 \textheight9.2in
-\textwidth6.75in
+\textwidth6.25in
 \newcommand\bb[1]{\mbox{\em #1}}
 \def\baselinestretch{1.05}
 
@@ -36,35 +36,55 @@
 {\LARGE \bf RESEARCH STATEMENT}\\
 \vspace*{0.1cm}
 {\normalsize Mahni Shayganfar (mshayganfar@wpi.edu)}
+\vspace{6mm}\\
+{\Large \bf Affect-Driven Cognitive Human Performance \\Evaluation \&
+Adaptation}\\
 \end{center}
 
-My current research span the areas of computational collaboration theories,
-affective computing, human-robot collaboraiton, and cognitive robotics. A
-common thread in my research is in developing a theory (Affective Motivational
-Collaboration Theory), design of a domain-independent architecture, and the
-framework which uses this architecture to provide a collabortive behavior for
-robots or vritual agents. I have resorted to prominent computational
-collaboration theories, i.e., SharedPlans theory, and computaitonal models of
-emotions, i.e., cognitive appraisal theory to develop my own theory. Broadly
-speaking, my research belongs to the area of human-robot collaboration and its
-underlyign processes, a growing field which has influence on different leading
-industries such as autonomous vehicles, space exploration, manufacturing, and
-any industry including situation inwhich human-robot teamwork is required.
+My current research spans the areas of computational collaboration theories,
+affective computing, human-robot collaboration, and cognitive robotics. Common
+threads in my research are the development of Affective Motivational
+Collaboration Theory, design of a domain-independent architecture, as well as
+the design of the framework which uses this architecture. The goal is to provide
+a collaborative behavior for robots or virtual agents based on this
+architecture. I have built on existing computational collaboration theories,
+i.e., SharedPlans theory, and computational models of emotions, i.e., cognitive
+appraisal theory to develop my own theory. Broadly speaking, my research belongs
+to the area of human-robot collaboration and its underlying processes, a growing
+field which has influence on different leading industries such as autonomous
+vehicles, space exploration, manufacturing, and any industry situation in which
+human-robot teamwork is required.
 
-\subsubsection*{Background - Collaboration Theories}
+Improving the human-robot teamwork performance not only depends on the robot's
+computational and physical capabilities, but it also depends on the human's
+performance and the ability of the robot to maintain this performance according
+to human's cognitive state. It is crucial to understand that the human's
+performance dynamically changes with respect to the internal and external
+events. The internal events comprise changes in mental state, e.g., violation of
+a strong belief, occurance of ambivalent intentions, and the blockage of an
+urgent motive. The external events can also influence one's performance, e.g.,
+abrupt changes of a task's timing, failure of high priority tasks, and delay in
+task duration. A collaborative robot requires to evaluate the existing data with
+respect to the human's cognitive model, adopt corresponding and appropriate
+behaviors, and adapt its own actions to maintain human's performance in task
+execution.
 
+\vspace*{-4mm}
+\section*{Background and Motivation}
+\vspace*{-2mm}
 The construction of robots that are intelligent, collaborative problem-solving
 partners is important in robotics and applications of Artificial Intelligence.
 It has always been important for us to make robots better at helping us to do
 whatever they are designed for. To build collaborative robots, we need to
 identify the capabilities that must be added to them so that they can work with
-us or other agents. As Grosz says, collaboration must be designed into systems
-from the start; it cannot be patched on \cite{grosz:collaborative-systems}.
-Collaboration is a special type of coordinated activity in which the
-participants work together performing a task or carrying out the activities
-needed to satisfy a shared goal \cite{grosz:collaboration}. 
-
-Collaboration involves several key properties both in structural and functional
+us or other agents. Collaboration must be designed into systems from the start;
+it cannot be patched on \cite{grosz:collaborative-systems}. Collaboration is a
+type of coordinated activity in which the participants work together performing
+a task or carrying out the activities needed to satisfy a shared goal
+\cite{grosz:collaboration}.
+\vspace*{-4mm}
+\subsubsection*{Collaboration Theories}
+Collaboration involves several key properties both a structural and functional
 levels. For instance, most collaborative situations involve participants who
 have different beliefs and capabilities; most of the time collaborators only
 have partial knowledge of the process of accomplishing the collaborative
@@ -79,20 +99,15 @@ collaboration context \cite{grosz:mice-menus}. These collaboration properties
 are captured by the existing computational collaboration theories.
 
 As I mentioned, to be collaborative, partners, e.g., a robot and a human, need
-to meet the specifications stipulated by collaboration theories. These theories
-argue for an essential distinction between a collaboration and a simple
-interaction or even a coordination in terms of commitments
-\cite{grosz:shared-plans, lochbaum:collaborative-planning}. The prominent
+to meet the specifications stipulated by collaboration theories. The prominent
 collaboration theories are mostly based on plans and joint intentions
 \cite{cohen:teamwork,grosz:plans-discourse,Litman:discourse-commonsense}, and
 they were derived from the BDI paradigm developed by Bratman
 \cite{bratman:intentions-plans} which is fundamentally reliant on folk
 psychology \cite{ravenscroft:folk}. The two theories, Joint Intentions
 \cite{cohen:teamwork} and SharedPlans \cite{grosz:plans-discourse}, have been
-extensively used to examine and describe teamwork and collaboration.
-
-\textbf{SharedPlans theory -} The SharedPlans model of collaborative
-action, presented by Grosz and Sidner \cite{grosz:planning-acting,
+extensively used to examine and describe teamwork and collaboration. The
+SharedPlans model of collaborative action \cite{grosz:planning-acting,
 grosz:collaboration, grosz:plans-discourse}, aims to provide the theoretical
 foundations needed for building collaborative robots/agents
 \cite{grosz:collaborative-systems}. SharedPlans is a general theory of
@@ -101,9 +116,7 @@ multi-level action decomposition hierarchies and allows the process of expanding
 and elaborating partial plans into full plans. SharedPlans theory explains how a
 group of agents can incrementally form and execute a shared plan that then
 guides and coordinates their activity towards the accomplishment of a shared
-goal. SharedPlans is rooted in the observation that collaborative plans are not
-simply a collection of individual plans, but rather a tight interleaving of
-mutual beliefs and intentions of different team members.
+goal.
 
 %Grosz and Sidner in \cite{grosz:plans-discourse} present a model of plans to
 %account for how agents with partial knowledge collaborate in the construction
@@ -121,8 +134,6 @@ mutual beliefs and intentions of different team members.
 % has intention to perform the action, and that each action in the plan
 % contributes to the goal \cite{grosz:plans-discourse,lochbaum:plan-models}.
 
-\textbf{Joint Intentions theory -} Following Bratman's guidelines, Cohen and
-Levesque propose a formal approach to building artificial collaborative agents.
 The Joint Intentions theory of Cohen and Levesque \cite{cohen:teamwork,
 cohen:intention-commitment, cohen:persistence-intention-commitment,
 cohen:intentions, levesque:acting-together} represents one of the first attempts
@@ -134,8 +145,7 @@ persistent commitment of the team to a shared goal, but also implies a
 commitment on part of all its members to a mutual belief about the state of the
 goal. In other words, Joint Intentions theory describes how a team of agents can
 jointly act together by sharing mental states about their actions while an
-intention is viewed as a commitment to perform an action. A joint intention is a
-shared commitment to perform an action while in a group mental state
+intention is viewed as a commitment to perform an action 
 \cite{cohen:intention-commitment}.
 
 %In \cite{cohen:teamwork} Cohen and Levesque establish that joint intention
@@ -166,14 +176,14 @@ shared commitment to perform an action while in a group mental state
 %count on the commitment of other members, first to the goal and then to the
 %mutual belief of the status of the goal.
 
-\textbf{STEAM -} Tambe in \cite{tambe:flexible-teamwork} argues that teamwork in
-complex, dynamic, multi-agent domains requires the agents to obtain flexibility
-and reusability by using integrated capabilities. Tambe created STEAM (simply, a
-\textbf{S}hell \textbf{TEAM}work) based on this idea. STEAM's operationalization
-in complex, real-world domains is the key in its development to addressing 
-important teamwork issues. STEAM is founded on the Joint Intentions theory and
-it uses joint intentions as the basic building block of teamwork while it is
-informed by key concepts from SharedPlans theory.
+There are also hybrid collaboration theories which borrow collaboration
+concepts from both SharedPlans and Joint Intentions theories. For instance,
+STEAM \cite{tambe:flexible-teamwork} (simply, a Shell TEAMwork) is a hybrid
+collaboration theory which its operationalization in complex, real-world domains
+is the key in its development to addressing important teamwork issues. STEAM is
+founded on the Joint Intentions theory and it uses joint intentions as the basic
+building block of teamwork while it is informed by key concepts from SharedPlans
+theory.
 
 %In summary, STEAM builds on both Joint Intention theory and SharedPlans theory
 %and tries to overcome their shortcomings. Based on joint intentions, STEAM
@@ -193,12 +203,12 @@ make it applicable in multi-agent system designs and human-robot collaboration.
 I also consider hybrid approaches valuable, such as STEAM, if they clearly
 understand drawbacks with existing theories and successfully achieve better
 collaborative agents by infusing different concepts from different theories.
+\vspace*{-8mm}
+\subsubsection*{Cognitive Appraisal Theory}
 
-\subsubsection*{Background - Cognitive Appraisal Theory}
-
-According to Picard \cite{picard:affective-computing}, the term affective
-computing encapsulates a new approach in Artificial Intelligence, to build
-computers that show human affection. Studies show that the decision making of
+The term affective computing encapsulates a new approach in Artificial
+Intelligence, to build computers that show human affection
+\cite{picard:affective-computing}. Studies show that the decision making of
 humans is not always logical \cite{GrossbergGutowski:affect-cognition}, and in
 fact, not only is pure logic not enough to model human intelligence, but it also
 shows failures when applied in artificial intelligence systems
@@ -211,34 +221,26 @@ consider the personal and social functionalities and characteristics of
 emotions; this will enable our robots to coexist with humans, who are emotional
 beings.
 
-\textbf{Cognitive Appraisal Theory -} There are different types of computational
-theories of emotion. These theories differ in the type of relationships between
-their components and whether a particular component plays a crucial role in an
-individual emotion. Appraisal theories of emotion were first formulated by Arnold
-\cite{arnold:emotion-personality} and Lazarus \cite{lazarus:emotion-adaptation}
-and then were actively developed in the early 80s by Ellsworth and Scherer and
-their students \cite{roseman:appraisal-theory,
-sander:systems-approach-appraisal, scherer:nature-function-emotion,
-scherer:emotions-emergent, scherer:appraisal-processes}. The emotional
-experience is the experience of a particular situation \cite{frijda:emotions}.
-Appraisal theory describes the cognitive process by which an individual
-evaluates the situation in the environment with respect to the individual's
-well-being and triggers emotions to control internal changes and external
-actions. According to this theory, appraisals are separable antecedents of
-emotion, that is, the individual first evaluates the environment and then feels
-an appropriate emotion \cite{scherer:appraisal-processes}. The appraisal
-procedure begins with the evaluation of the environment according to the
-internalized goals and is based on systematic assessment of several elements
+There are different types of computational theories of emotion. These theories
+differ in the type of relationships between their components and whether a
+particular component plays a crucial role in an individual emotion. Appraisal
+theory describes the cognitive process by which an individual evaluates the
+situation in the environment with respect to the individual's well-being and
+triggers emotions to control internal changes and external actions. According to
+this theory, appraisals are separable antecedents of emotion, that is, the
+individual first evaluates the environment and then feels an appropriate emotion
+\cite{scherer:appraisal-processes}. The appraisal procedure begins with the
+evaluation of the environment according to the internalized goals and is based
+on systematic assessment of several elements
 \cite{scherer:sequential-appraisal-process}. The outcome of this process
 triggers the appropriate emotions.\\
 
+In my Ph.D thesis, I lay out a computational framework for the theory I have
+developed based on SharedPlans and Cognitive Appraisal theories. A great deal of
+my work has benefited from the integration of these well-established theories
+and their underlying structure.
 
-In my Ph.D thesis, I attempt to lay a computational framework for the theory I
-have developed based on SharedPlans and Cognitive Appraisal theories. A great
-deal of my work has benefited from the integration of these well-established
-theories and their underlying structure.
-
-\subsubsection*{Limitations}
+\subsubsection*{Limitations of Existing Theories}
 
 There are several well-developed
 cognitive architectures, e.g., Soar \cite{laird:soar} and ACT-R
@@ -281,47 +283,48 @@ task.
 
 \subsubsection*{Current Research}
 
-In my Ph.D. thesis, I have developed the Affective Motivational Collaboration
-Theory and the associated computational model that will enhance the performance
-and effectiveness of collaboration between robots and humans. This theory
-explains the functions of emotions in a dyadic collaboration and shows how
-affective mechanisms can coordinate social interactions by anticipating other's
-emotions, beliefs and intentions. This theory also specifies the influence of
-the underlying collaboration processes on appraisals. Affective Motivational
+In my Ph.D. thesis, I have developed Affective Motivational Collaboration Theory
+and the associated computational model that will enhance the performance and
+effectiveness of collaboration between robots and humans. This theory explains
+the functions of emotions in a dyadic collaboration and shows how affective
+mechanisms can coordinate social interactions by anticipating other's emotions,
+beliefs and intentions. This theory also specifies the influence of the
+underlying collaboration processes on appraisals. Affective Motivational
 Collaboration Theory elucidates the role of motives as goal-driven
 emotion-regulated constructs with which an agent can form new beliefs and
 intentions to cope with internal and external events. An important contribution
 of this work is to elucidate how motives are involved not only in the appraisal
 and coping processes, but how they also serve as a bridge between appraisal
-processes and the collaboration structure. I will validate my theory using my
+processes and the collaboration structure. I am validating my theory using my
 computational framework in the context of a human-robot collaboration.
 
 I have investigated how affect-driven mechanisms in my Affective Motivational
 Collaboration Theory can be involved to successfully maintain a dyadic
-collaboration. This study is based on two hypothetical collaboration examples of
-\textit{task delegation} and \textit{agreeing on a shared goal} for both
-positive and negative situations. In positive cases, two walkthrough examples
-are provided to show successful progress of a collaboration in each scenario. In
-these examples collaboration is concluded by the shared goal achievement because
-of the emotion-aware behavior of a robot. Whereas, the negative cases,
-illustrate how emotion-ignorant behavior of a robot can cause failure of a
-collaboration in the same examples. We have implemented the rules associated
+collaboration. My research is based on two hypothetical collaboration examples
+of \textit{task delegation} and \textit{agreeing on a shared goal} for both
+success and failure of each scenario because of the emotion-awareness and
+emotion-ignorance behavior of the robot. I have implemented the rules associated
 with these examples using JESS (Java Expert System Shell) which is a rule engine
-for the Java platform. In our current implementation we have categorized the
-rules in different modules associated with the mechanisms and the underlying
-processes in Affective Motivational Collaboration Thoery. We are implementing
+for the Java platform. In my current implementation I have categorized the rules
+in different modules associated with the mechanisms and the underlying processes
+in Affective Motivational Collaboration Theory. The outcome of this part of my
+work is currently under review as a journal publication. I am implementing
 algorithms for each individual mechanism to be able to automatically generate
 the required facts within each mechanism to fire the existing rules. Ultimately,
-we are going to offer a platform which operates based on the collaboration
-structure discussed by SharedPlans theory \cite{grosz:discourse-structure}, and
-employs affect-driven processes such as the appraisal processes in
-\cite{marsella:ema-process-model} to enable a robot to obtain and demonstrate
-collaborative behaviors. This study is currently under review of a
-journal publication. 
+I am going to provide a platform which operates based on the collaboration
+structure, and employs affect-driven processes such as the appraisal processes
+in \cite{marsella:ema-process-model} to enable a robot to obtain and demonstrate
+collaborative behaviors.
+
+% In positive cases, two walkthrough examples are provided to show successful
+% progress of a collaboration in each scenario. In these examples collaboration is
+% concluded by the shared goal achievement because of the emotion-aware behavior
+% of a robot. Whereas, the negative cases, illustrate how emotion-ignorant
+% behavior of a robot can cause failure of a collaboration in the same examples. 
 
 As another crucial part of my research, I have developed domain-independent
 algorithms for the appraisal of a collaborative environment. These algorithms
-compute the value of the four appraisal variables, i.e., \textit{relevance,
+compute the value of the four appraisal variables: \textit{relevance,
 desirability, expectedness} and \textit{controllability}. These algorithms use a
 generalized collaboration structure to compute their outcome in a dyadic
 collaboration. The performance of individual algorithms will be verified based
@@ -331,7 +334,7 @@ our framework. I will finalize my Ph.D. thesis by evaluating the overall
 architecture using a robot simulator to successfully and efficiently (in terms
 of time and number of errors) collaborate with human subjects.
 
-\subsubsection*{A Research Agenda}
+\subsubsection*{Future Research Directions}
 
 Collaborative robots are becoming an integral part of humans' environment to
 accomplish their industrial and household tasks. In these environments humans
@@ -346,21 +349,20 @@ functions that a system with affect-driven processes offers.
 
 Performance evaluation of a human requires perception of the human's physical
 and mental states. This perception can be performed based on available
-bio-information, as well as verbal (e.g., utterancces) and non-verbal (e.g.,
-facial expressiona) behaviors. However, a robot requires to possess cognitive
-mechanisms to evaluate and adapt its own behavior to change human's performance
-on the given task and environment. My Ph.D. thesis provides fundamental
-affect-driven mechanisms and defines their relationship within a cognitive
-architecture. These mechanisms can be involved form initial evaluation of the
-input data to higher level processes such as action selection or alarm
-mechanism. All these functions can improve robot's awareness and
-self-synchronization capabilities during the interaction. For instance, if the
-appraisal of the input data reveals controllability (an appraisal varibale) of
-an event, the robot can choose an appropriate action to make changes to
-the status of the interaction. Ultimately, these changes can improve human's
-performance in a task execution. I would like to apply my knowledge I attained
-in my research and develop new algorithms to evaluate performance of a human and
-adapt the robot's behavior respectively.
+bio-information, as well as verbal (e.g., utterances) and non-verbal (e.g.,
+facial expressions) behaviors. However, a robot requires cognitive mechanisms to
+evaluate and adapt its own behavior to change the human's performance on the
+given task and environment. My Ph.D. thesis provides fundamental affect-driven
+mechanisms and defines their relationship within a cognitive architecture. These
+mechanisms can be involved from initial evaluation of the input data to higher
+level processes such as action selection or alarm mechanism. All these functions
+can improve a robot's awareness and self-synchronization capabilities during the
+interaction. For instance, if the appraisal of the input data reveals
+controllability (an appraisal variable) of an event, the robot can choose an
+appropriate action to make changes to the status of the interaction. Ultimately,
+these changes can improve human's performance in a task execution. I would like
+to apply my knowledge I attained in my research to develop new algorithms to
+evaluate performance of a human and adapt the robot's behavior respectively.
 
 
 
@@ -372,4 +374,3 @@ adapt the robot's behavior respectively.
 \end{small}
 
 \end{document}
-

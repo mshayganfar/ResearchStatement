@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{arnold:emotion-personality}
-Magda~B. Arnold.
-\newblock {\em Emotion and personality}.
-\newblock Cassell & Co., 1960.
-
 \bibitem{bratman:intentions-plans}
 Michael~E. Bratman.
 \newblock {\em Intention, Plans, and Practical Reason}.
@@ -42,22 +37,11 @@ Hubert~L. Dreyfus.
 \newblock {\em What Computers Still Can'T Do: A Critique of Artificial Reason}.
 \newblock MIT Press, 1992.
 
-\bibitem{frijda:emotions}
-Nico~H. Frijda.
-\newblock {\em The Emotions}.
-\newblock Cambridge University Press, 1986.
-
 \bibitem{GrossbergGutowski:affect-cognition}
 S.~Grossberg and W.~E. Gutowski.
 \newblock Neural dynamics of decision making under risk: Affective balance and
   cognitive-emotional interactions.
 \newblock {\em Psychological Review}, 94(3):300--318, 1987.
-
-\bibitem{grosz:shared-plans}
-Barbara Grosz and Sarit Kraus.
-\newblock The evolution of shared plans.
-\newblock In {\em Foundations and Theories of Rational Agency}, pages 227--262,
-  1998.
 
 \bibitem{grosz:collaborative-systems}
 Barbara~J. Grosz.
@@ -80,11 +64,6 @@ Barbara~J. Grosz and Sarit Kraus.
 \newblock Collaborative plans for complex group action.
 \newblock {\em Artificial Intelligence}, 86(2):269--357, 1996.
 
-\bibitem{grosz:discourse-structure}
-Barbara~J. Grosz and Candace~L. Sidner.
-\newblock Attention, intentions, and the structure of discourse.
-\newblock {\em Computational Linguistics}, 12(3):175--204, July 1986.
-
 \bibitem{grosz:plans-discourse}
 Barbara~J. Grosz and Candace~L. Sidner.
 \newblock Plans for discourse.
@@ -101,11 +80,6 @@ John Laird.
 \newblock {\em The Soar Cognitive Architecture}.
 \newblock MIT Press, 2012.
 
-\bibitem{lazarus:emotion-adaptation}
-Richard~Stanley Lazarus.
-\newblock {\em Emotion and Adaptation}.
-\newblock OXFORD University Press, 1991.
-
 \bibitem{levesque:acting-together}
 Hector~J. Levesque, Philip~R. Cohen, and José H.~T. Nunes.
 \newblock On acting together.
@@ -116,11 +90,6 @@ D.~J. Litman and J.~F. Allen.
 \newblock Discourse processing and commonsense plans.
 \newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
   Intentions in Communication}, pages 365--388. MIT Press, Cambridge, MA, 1990.
-
-\bibitem{lochbaum:collaborative-planning}
-Karen~E Lochbaum.
-\newblock A collaborative planning model of intentional structure.
-\newblock {\em Computational Linguistics}, 24(4):525--572, 1998.
 
 \bibitem{marinier:behavior-emotion}
 Robert~P. {Marinier III}, John~E. Laird, and Richard~L. Lewis.
@@ -142,36 +111,11 @@ Ian Ravenscroft.
 \newblock {\em Folk Psychology as a Theory}.
 \newblock Stanford Encyclopedia of Philosophy, 2004.
 
-\bibitem{roseman:appraisal-theory}
-Ira~J. Roseman and Craig~A. Smith.
-\newblock Appraisal theory:overview, assumptions, varieties, controversies.
-\newblock In Klaus~R. Scherer, Angela Schorr, and Tom Johnstone, editors, {\em
-  Appraisal process in emotion}, pages 3--34. NY: Oxford University Press,
-  2001.
-
-\bibitem{sander:systems-approach-appraisal}
-David Sander, Didier Grandjean, and Klaus~R. Scherer.
-\newblock A systems approach to appraisal mechanisms in emotion.
-\newblock {\em Neural Networks}, 18(4):317--352, 2005.
-
-\bibitem{scherer:nature-function-emotion}
-Klaus~R. Scherer.
-\newblock On the nature and function of emotion: A component process approach.
-\newblock In Klaus~R. Scherer and Paul Ekman, editors, {\em Approaches To
-  Emotion}, pages 293--317. Lawrence Erlbaum, Hillsdale, NJ, 1984.
-
 \bibitem{scherer:sequential-appraisal-process}
 Klaus~R. Scherer.
 \newblock On the sequential nature of appraisal processes: Indirect evidence
   from a recognition task.
 \newblock {\em Cognition \& Emotion}, 13(6):763--793, 1999.
-
-\bibitem{scherer:emotions-emergent}
-Klaus~R. Scherer.
-\newblock Emotions are emergent processes: they require a dynamic computational
-  architecture.
-\newblock {\em Philosophical Transactions of the Royal Society B: Biological
-  Sciences}, 364(1535):3459--3474, 2009.
 
 \bibitem{scherer:appraisal-processes}
 Klaus~R. Scherer, Angela Schorr, and Tom Johnstone.
